@@ -1,0 +1,6 @@
+{
+    "subscription_id": "13eb68c6-fed2-4d5d-b478-dd7c321eae0c",
+    "resource_group": "dummy-classification-rg",
+    "workspace_name": "dummy-model-classification-testws",
+    "region": "westeurope"
+}
