@@ -26,7 +26,7 @@ def classify_text(clf, doc, labels=None):
 def run(raw_data):
     try:
         data = json.loads(raw_data)['data']
-        labels = ["POLITICS", "ENTERTAINMENT", "U.S. NEWS", "WORLD NEWS "]
+        labels = ['SPORTS', 'CRIME', 'BLACK VOICES', 'QUEER VOICES', 'MEDIA', 'SCIENCE', 'CULTURE & ARTS', 'TRAVEL', 'TECH', 'WORLD NEWS', 'PARENTING', 'WELLNESS', 'COMEDY', 'EDUCATION', 'FOOD & DRINK', 'ENVIRONMENT', 'U.S. NEWS', 'BUSINESS', 'POLITICS', 'HOME & LIVING', 'ENTERTAINMENT', 'WOMEN', 'STYLE & BEAUTY', 'WEIRD NEWS']
 
         # Perform prediction using the loaded scikit-learn model
         result = classify_text(model, data, labels)
